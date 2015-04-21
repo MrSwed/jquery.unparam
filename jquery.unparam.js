@@ -19,7 +19,7 @@
   if ((temp = $.type(input)) != 'string' || (temp == 'string' && !temp.length)) 
    return {}; 
   // Decodificamos la entrada y la dividimos en bloques 
-  items = decodeURIComponent(input).split('&'); 
+  items = decodeURIComponent(input.indexOf('?') > -1 ? input.split('?')[1] : input).split('&'); 
   // Es necesario que los datos anteriores no se encuentren vacíos 
   if (!(temp = items.length) || (temp == 1 && temp === '')) 
    return result; 
