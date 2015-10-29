@@ -19,7 +19,7 @@ How to use
 Demo online
 --------------------------------------
 
-http://jsfiddle.net/yeikos/9Sv3p/
+http://jsfiddle.net/swed/5wc12L91/
 
 Example
 --------------------------------------
